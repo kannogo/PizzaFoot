@@ -92,14 +92,34 @@ header h1 {
     .nav {
         padding: 5px;
     }
-    .nav li {
-        width: 100px;
+    .nav ul {
+        display: flex;
+        margin: 0;
+        padding: 5px;
+        justify-content: flex-end;
+        /* background-color: cadetblue; */
+    }
+    .nav ul li {
+        width: 30%;
+        display: block;
+        list-style-type: none;
+        text-align: center;
+        /* background-color: blueviolet; */
     }
     .navimg img {
         width: 20px;
     }
-    .navtext {
+    #navtext {
+        padding: 12px 10px;
+    }
+    .nav .navtext {
+        width: 200px;
         font-size: 16px;
+        padding-right: 10px;
+        /* background-color: blue; */
+    }
+    .nav .nav2, .nav .nav4 {
+        width: 150px;
     }
 }
 
