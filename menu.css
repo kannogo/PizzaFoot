@@ -612,7 +612,8 @@ header {
 
 /* ---------------- footer ---------------- */
 footer {
-    margin: 30px 20px;
+    width: 800px;
+    margin: 0px auto;
     background-color: black;
     color: #fff;
 }
